@@ -71,7 +71,9 @@ line-height: 50px;
 }
 
 
-
+.nameTitle{
+    font-size: 30px;
+}
 
 .pictures{
     width: 250px;
@@ -85,4 +87,4 @@ margin-top: 30px;
                   }
               } 
 
-      
+    
