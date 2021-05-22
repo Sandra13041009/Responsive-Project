@@ -5,12 +5,12 @@ body{
 
 h1{
     text-align: center;
+    margin-top: 30px;
 }
 
-
-.container{
-    margin-top: 55px;
-    text-align: center;
+.btn{
+    display: flex;
+justify-content: center;
 }
 
 
@@ -22,8 +22,8 @@ h1{
     font-size: 15px;
     line-height: 25px;
 text-align: center;
-font-variant: small-caps;
-}
+font-variant: small-caps;}
+
 
 .fling-minislide {
     width:100%; 
@@ -71,15 +71,20 @@ line-height: 50px;
     font-size: 25px;
     line-height: 70px;
 }
+
+
+
+
 .picturesPeter{
-    width: 300px;
+    width: 250px;
     height: auto;
 }
-.frame{
-     width: 300px;
-  height: auto;
-  border: 3px solid #ccc;
-  background: #eee;
-  margin: auto;
-  padding: 15px 15px;
-}
+
+       @media (min-width: 640px) {
+                  .container {
+width: 700px ;
+margin-top: 30px;
+                  }
+              } 
+
+      
