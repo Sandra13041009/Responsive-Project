@@ -1,9 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
-
 }
-
-
 
 h1{
     text-align: center;
@@ -12,7 +9,7 @@ h1{
 
 .btn{
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 .btn-outline{
@@ -21,9 +18,9 @@ justify-content: center;
     border-radius: 1px;
     font-size: 15px;
     line-height: 25px;
-text-align: center;
-font-variant: small-caps;}
-
+    text-align: center;
+    font-variant: small-caps;
+}
 
 .slides {
     width:100%; 
@@ -32,7 +29,7 @@ font-variant: small-caps;}
     padding-bottom: 20px;
     overflow: hidden;  
     display: flex;
-  justify-content: center;
+    justify-content: center;
  }
 
 .slides img { 
@@ -56,42 +53,27 @@ font-variant: small-caps;}
     border: 1px solid black;
     text-align: center;
     padding: 30px;
-display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
 }
+
 .email-link{
     text-decoration: none;
     font-weight: 100px;
-padding-bottom: 10px;
-line-height: 50px;
-color: black;
-}
-.icons{
-    font-size: 25px;
-    line-height: 70px;
-    text-decoration: none;
+    padding-bottom: 10px;
+    line-height: 50px;
     color: black;
 }
-
 
 .icons a{
     font-size: 25px;
     line-height: 70px;
     text-decoration: none;
     color: black;
+    padding: 10px 15px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .nameTitle{
     font-size: 30px;
@@ -102,37 +84,31 @@ color: black;
     height: auto;
 }
 
-       @media (min-width: 640px) {
-                  .container {
-width: 700px ;
-margin-top: 20px;
+footer.links a{
+    font-size: 18px;
+    padding: 10px 14px;
+    color: rgb(78, 78, 78)
+}
+
+.creator{
+    font-size: 15px;
+}
+
+@media (min-width: 640px) {
+    .container {
+        width: 700px ;
+        margin-top: 20px;
                   }
               } 
 
  @media (min-width: 640px) {
-                  .imageTop {
-margin-top: 40px;
+    .imageTop {
+        margin-top: 40px;
                   }
               } 
 
  @media (max-width: 640px) {
-                  .info {
-padding: 25px;
+    .info {
+        padding: 25px;
                   }
               } 
-
-
-   footer.links a{
-                font-size: 18px;
-                padding: 10px 14px;
-                color: rgb(78, 78, 78)
-            }
-
-            .footerHome{
-                margin-top: 270px;
-            }
-
-            .creator{
-                font-size: 15px;
-            }
-        
