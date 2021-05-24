@@ -3,6 +3,8 @@ body{
 
 }
 
+
+
 h1{
     text-align: center;
     margin-top: 30px;
@@ -96,8 +98,17 @@ margin-top: 40px;
                   }
               } 
 
-        .links a{
+   footer.links a{
                 font-size: 18px;
                 padding: 10px 14px;
                 color: rgb(78, 78, 78)
             }
+
+            .footerHome{
+                margin-top: 270px;
+            }
+
+            .creator{
+                font-size: 15px;
+            }
+        
